@@ -1,6 +1,6 @@
-import com.example.Cat;
-import com.example.Feline;
-import com.example.Predator;
+import example.Cat;
+import example.Feline;
+import example.Predator;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,5 @@
-package com.example;
+package example;
 
-import java.time.Period;
 import java.util.List;
 
 public class Lion {

@@ -1,6 +1,6 @@
-import com.example.Feline;
-import com.example.Lion;
-import com.example.Predator;
+import example.Feline;
+import example.Lion;
+import example.Predator;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +10,6 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import java.util.Collections;
 import java.util.List;
 
 @RunWith(Parameterized.class)
@@ -26,7 +25,7 @@ public class LionTest  {
         return new Object[][]{
                 {"Самец"},
                 {"Самка"},
-                {"Самец"}
+                {"Неизвестно"}
         };
     }
 
